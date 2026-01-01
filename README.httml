@@ -1,6 +1,15 @@
-import random
-import keyboard
-estamina = 30
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+
+    <h1>Meu RPG em Python</h1>
+    
+    <script type="py">
+        estamina = 30
 vida = 100
 animo = 10
 #dialogo
@@ -15,5 +24,9 @@ def linhapo():
   print("(())----------------------------------------(())")
 #agorapo
 print(dial1)
+    </script>
+
+</body>
+</html>
 
 
